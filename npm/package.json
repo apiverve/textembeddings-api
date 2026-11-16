@@ -1,0 +1,47 @@
+{
+  "name": "@apiverve/textembeddings",
+  "version": "1.2.6",
+  "description": "Text Embeddings turns a sentence, paragraph or short document into a 384-dimension vector that captures its meaning, ready for semantic search, clustering, deduplication and recommendations. Send one text or a batch of up to 32, and add a compare text to get the cosine similarity of each one to it in the same call.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "example": "node examples/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/textembeddings-api.git",
+    "directory": "npm"
+  },
+  "keywords": [
+    "text embeddings api", "sentence embeddings api", "embedding api", "vector embeddings", "semantic search api"
+  ],
+  "author": {
+    "name": "APIVerve",
+    "email": "hello@apiverve.com",
+    "url": "https://apiverve.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/textembeddings-api/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/textembeddings?utm_source=npm&utm_medium=referral&utm_content=homepage",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "axios": "1.13.2",
+    "form-data": "^4.0.1"
+  }
+}
